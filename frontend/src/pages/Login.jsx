@@ -66,11 +66,11 @@ const Login = () => {
     }
   };
 
-  // const fillDemoAdmin = () => {
-  //   setUsername('admin');
-  //   setPassword('admin123');
-  //   setLoginError(null);
-  // };
+  const fillDemoAdmin = () => {
+    setUsername('admin');
+    setPassword('admin123');
+    setLoginError(null);
+  };
 
   // Student GitHub Live Verification
   const handleVerifyGitHub = async () => {
@@ -231,7 +231,7 @@ const Login = () => {
                   <Form.Label className="small fw-semibold text-muted">Administrator Username</Form.Label>
                   <Form.Control
                     type="text"
-                    placeholder="e.g. admin"
+                    placeholder="Enter username"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                     className="py-2"
