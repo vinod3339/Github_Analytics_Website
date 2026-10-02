@@ -191,13 +191,7 @@ npm run dev
 
 ---
 
-## 🔑 Default Administrator Credentials
 
-When launching the application for the first time, a default administrator account is seeded automatically:
-
-- **Username**: `admin`
-- **Password**: `admin123`
-- *(You can also click "Auto-fill Demo Admin" on the login screen for instant access).*
 
 ---
 
