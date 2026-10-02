@@ -9,8 +9,8 @@ const Login = () => {
   const [activeTab, setActiveTab] = useState('admin'); // 'admin' | 'student'
 
   // Admin Login State
-  const [username, setUsername] = useState('admin');
-  const [password, setPassword] = useState('admin123');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [loginLoading, setLoginLoading] = useState(false);
   const [loginError, setLoginError] = useState(null);
 
@@ -64,12 +64,6 @@ const Login = () => {
     } finally {
       setLoginLoading(false);
     }
-  };
-
-  const fillDemoAdmin = () => {
-    setUsername('admin');
-    setPassword('admin123');
-    setLoginError(null);
   };
 
   // Student GitHub Live Verification
@@ -271,9 +265,6 @@ const Login = () => {
                 </Button>
 
                 <div className="text-center pt-2 border-top">
-                  <Button variant="outline-secondary" size="sm" onClick={fillDemoAdmin} className="w-100 py-2 mb-2">
-                    <i className="bi bi-magic me-1"></i> 
-                  </Button>
                   <Button
                     variant="link"
                     size="sm"
