@@ -272,7 +272,7 @@ const Login = () => {
 
                 <div className="text-center pt-2 border-top">
                   <Button variant="outline-secondary" size="sm" onClick={fillDemoAdmin} className="w-100 py-2 mb-2">
-                    <i className="bi bi-magic me-1"></i> Auto-fill Demo Admin (admin / admin123)
+                    <i className="bi bi-magic me-1"></i> 
                   </Button>
                   <Button
                     variant="link"
