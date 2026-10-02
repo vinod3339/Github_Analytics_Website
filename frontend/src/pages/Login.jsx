@@ -66,11 +66,11 @@ const Login = () => {
     }
   };
 
-  const fillDemoAdmin = () => {
-    setUsername('admin');
-    setPassword('admin123');
-    setLoginError(null);
-  };
+  // const fillDemoAdmin = () => {
+  //   setUsername('admin');
+  //   setPassword('admin123');
+  //   setLoginError(null);
+  // };
 
   // Student GitHub Live Verification
   const handleVerifyGitHub = async () => {
